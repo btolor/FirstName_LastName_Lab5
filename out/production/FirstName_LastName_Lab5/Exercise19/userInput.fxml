@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <VBox alignment="CENTER" prefHeight="76.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to top right, #ff7f50, #6a5acd);" BorderPane.alignment="CENTER">
+            <children>
+                <Label alignment="CENTER" contentDisplay="CENTER" text="FITNESS CENTER" textAlignment="CENTER" textFill="WHITE" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="AR DESTINE" size="36.0" />
+               </font></Label>
+                <Label layoutX="10.0" layoutY="10.0" text="lkhlkjhdlksjhalkjhsdlkjh" textFill="WHITE" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="SansSerif Bold" size="18.0" />
+               </font></Label>
+            </children>
+        </VBox>
+    </top>
+   <center>
+      <VBox prefHeight="484.0" prefWidth="701.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox prefHeight="147.0" prefWidth="209.0" spacing="10.0">
+                     <children>
+                        <Label text="First Name:" VBox.vgrow="ALWAYS" />
+                        <TextField VBox.vgrow="ALWAYS" />
+                        <Label layoutX="10.0" layoutY="10.0" text="Last Name:" VBox.vgrow="ALWAYS" />
+                        <TextField layoutX="10.0" layoutY="27.0" VBox.vgrow="ALWAYS" />
+                        <Label layoutX="10.0" layoutY="52.0" text="Date of Birth" VBox.vgrow="ALWAYS" />
+                        <TextField layoutX="10.0" layoutY="69.0" VBox.vgrow="ALWAYS" />
+                     </children>
+                  </VBox>
+                  <Region prefHeight="147.0" prefWidth="111.0" />
+                  <VBox prefHeight="147.0" prefWidth="203.0" spacing="10.0">
+                     <children>
+                        <Label text="Address" VBox.vgrow="ALWAYS" />
+                        <TextField VBox.vgrow="ALWAYS" />
+                        <Label layoutX="10.0" layoutY="10.0" text="City" VBox.vgrow="ALWAYS" />
+                        <TextField layoutX="10.0" layoutY="27.0" VBox.vgrow="ALWAYS" />
+                        <HBox alignment="TOP_CENTER" prefHeight="36.0" prefWidth="203.0" spacing="10.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label text="State" HBox.hgrow="ALWAYS" />
+                              <TextField prefHeight="25.0" prefWidth="44.0" HBox.hgrow="ALWAYS" />
+                              <Label layoutX="10.0" layoutY="10.0" text="Zip" HBox.hgrow="ALWAYS" />
+                              <TextField layoutX="18.0" layoutY="10.0" prefHeight="25.0" prefWidth="84.0" HBox.hgrow="ALWAYS" />
+                           </children>
+                           <padding>
+                              <Insets top="30.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <VBox alignment="CENTER" prefHeight="42.0" prefWidth="754.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Gender:" textAlignment="CENTER" VBox.vgrow="ALWAYS" />
+                  <HBox alignment="TOP_CENTER" prefHeight="25.0" prefWidth="754.0" spacing="30.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <RadioButton mnemonicParsing="false" text="Male" />
+                        <RadioButton layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Female" />
+                     </children>
+                     <padding>
+                        <Insets top="15.0" />
+                     </padding>
+                  </HBox>
+               </children></VBox>
+            <HBox alignment="CENTER" prefHeight="28.0" prefWidth="754.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <HBox prefHeight="124.0" prefWidth="297.0">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="116.0" text="Membership Length:" />
+                        <ComboBox prefWidth="150.0" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="10.0" prefHeight="124.0" prefWidth="252.0">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="101.0" text="Training Sessions:" />
+                        <ComboBox prefWidth="150.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <VBox alignment="CENTER" prefHeight="8.0" prefWidth="754.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Label text="Senior Citizen" />
+                  <HBox alignment="TOP_CENTER" prefHeight="21.0" prefWidth="754.0" spacing="20.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <RadioButton mnemonicParsing="false" text="Yes" />
+                        <RadioButton layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="No" />
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>
