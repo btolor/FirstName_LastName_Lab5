@@ -67,7 +67,7 @@
                         <Label text="Membership Length:" />
                         <ComboBox prefHeight="25.0" prefWidth="176.0" />
                         <Label layoutX="10.0" layoutY="10.0" text="Training Sessions:" />
-                        <ComboBox layoutX="123.0" layoutY="10.0" prefHeight="25.0" prefWidth="46.0" />
+                        <ComboBox layoutX="123.0" layoutY="10.0" prefHeight="25.0" prefWidth="46.0"/>
                      </children></HBox>
                </children>
                <padding>
