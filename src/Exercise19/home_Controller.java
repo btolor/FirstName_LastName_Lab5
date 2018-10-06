@@ -27,20 +27,23 @@ public class home_Controller implements Initializable {
      */
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        discountsTextArea.appendText("Fees:\n\n");
+        discountsTextArea.appendText("Membership Cost: $500.00\n\n");
+        discountsTextArea.appendText("Training Sessions Cost: %100.00\n\n");
+        discountsTextArea.appendText("Discounts:\n\n");
         discountsTextArea.appendText("30% Discount for all senior citizens.\n\n");
-        discountsTextArea.appendText("15% Discount if membership is bought and \npaid for 12 or months in advance.\n\n");
-        discountsTextArea.appendText("20% Discount on each personal training \nsession when 5 or more sessions are \npurchased.");
+        discountsTextArea.appendText("15% Discount if membership is bought and \npaid for 12 or months in advance..\n\n");
+        discountsTextArea.appendText("20% Discount on each personal training \nsession when 5 or more sessions are \npurchased...");
     }
 
     /**
-     * This method will change the home_scene to the menu_scene when it is called.
-     * In this method the ActionEvent parameter reads from the button to get the scene and the
+     * This method will change the home_scene to the menu_scene when it is called by the New Member btn
+     * click. In this method the ActionEvent parameter reads from the button to get the scene and the
      * throws IOException is set in place because it is reading from the file system.The Parent
      * menu is setup the same as the Parent root in the fitnessCenterMembershipCost class but
      * with menu_scene.fxml as its resource. The new scene and stage is then created.
      */
     public void sceneSwitch (ActionEvent event) throws IOException {
-
         Parent menu = FXMLLoader.load(getClass().getResource("menu_scene.fxml"));
         Scene menuScene = new Scene(menu);
         //This line gets the stage info and cast it as a stage called window...
@@ -49,6 +52,14 @@ public class home_Controller implements Initializable {
         window.setTitle("Membership Options");
         window.setResizable(false);
         window.show();
+    }
+
+    /**
+     * This method will terminate the java program when the Exit
+     * btn is clicked...
+     * */
+    public void exit(){
+        System.exit(1);
     }
 
 

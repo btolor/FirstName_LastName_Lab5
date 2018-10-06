@@ -3,14 +3,13 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exercise19.menu_Controller">
    <top>
@@ -26,13 +25,11 @@
          <children>
             <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="230.0" style="-fx-background-color: yellow;">
                <children>
-                  <VBox alignment="TOP_CENTER" prefHeight="425.0" prefWidth="230.0" spacing="30.0">
+                  <VBox alignment="TOP_CENTER" prefHeight="425.0" prefWidth="230.0" spacing="40.0">
                      <children>
                         <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="85.0" prefWidth="228.0" text="If you’re looking to join a supportive, &#13;welcoming gym community, with &#13;people of all fitness levels who &#13;want to see you succeed, you’ve &#13;come to the right place." textAlignment="CENTER" />
-                        <Label text="Membership Cost: $500.00" />
-                        <Label text="Training Sessions Cost $100.00 e.a" />
                         <Button layoutX="15.0" layoutY="150.0" mnemonicParsing="false" onAction="#sceneSwitch" prefHeight="55.0" prefWidth="220.0" text="Back" />
-                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="220.0" text="Exit" />
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#exit" prefHeight="55.0" prefWidth="220.0" text="Exit" />
                      </children>
                      <padding>
                         <Insets top="25.0" />
@@ -49,50 +46,58 @@
                               <VBox alignment="CENTER" prefHeight="87.0" prefWidth="141.0">
                                  <children>
                                     <Label contentDisplay="CENTER" text="Months paid in advance:" textAlignment="CENTER" />
-                                    <TextField prefHeight="25.0" prefWidth="51.0" />
+                                    <TextField fx:id="monthsPaid" alignment="CENTER" prefHeight="25.0" prefWidth="83.0" promptText="BTN :  1 &amp; 100" />
+                                    <Label fx:id="requiredField1" alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="84.0" text="Required field!" textFill="#ff0f0f" visible="false">
+                                       <font>
+                                          <Font name="System Bold Italic" size="12.0" />
+                                       </font>
+                                    </Label>
                                  </children>
                               </VBox>
                               <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="146.0" prefWidth="96.0">
                                  <children>
                                     <Label contentDisplay="CENTER" text="Trainig Sessions:" />
-                                    <TextField prefHeight="25.0" prefWidth="65.0" />
+                                    <TextField fx:id="trainingSession" prefHeight="25.0" prefWidth="65.0" promptText="BTN:  1 &amp; 100" />
+                                    <Label fx:id="requiredField2" alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="84.0" text="Required field!" textFill="#ff0f0f" visible="false">
+                                       <font>
+                                          <Font name="System Bold Italic" size="12.0" />
+                                       </font>
+                                    </Label>
                                  </children>
                               </VBox>
                            </children>
                         </HBox>
                      </children></VBox>
-                  <VBox alignment="TOP_CENTER" prefHeight="89.0" prefWidth="363.0">
+                  <VBox alignment="TOP_CENTER" prefHeight="62.0" prefWidth="363.0" spacing="10.0">
                      <children>
                         <Label text="Senior Citizen:" />
-                        <HBox alignment="TOP_CENTER" fillHeight="false" prefHeight="41.0" prefWidth="363.0" spacing="20.0">
-                           <children>
-                              <RadioButton mnemonicParsing="false" text="Yes" textAlignment="CENTER">
-                                 <toggleGroup>
-                                    <ToggleGroup fx:id="seniorCitize" />
-                                 </toggleGroup>
-                              </RadioButton>
-                              <RadioButton layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="No" toggleGroup="$seniorCitize" />
-                           </children>
-                           <padding>
-                              <Insets top="15.0" />
-                           </padding>
-                        </HBox>
+                        <TextField fx:id="scTextField" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="77.0" promptText="Yes or No" />
+                        <Label fx:id="requiredField3" alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="84.0" text="Required field!" textFill="#ff0f0f" visible="false">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
                      </children></VBox>
                   <VBox alignment="TOP_CENTER" layoutX="10.0" layoutY="139.0" prefHeight="134.0" prefWidth="363.0">
                      <children>
                         <Label text="Summary:" />
-                        <TextArea maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="117.0" prefWidth="343.0" />
+                        <TextArea fx:id="summaryTArea" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="117.0" prefWidth="343.0" />
                      </children>
                   </VBox>
-                  <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="283.0" prefHeight="53.0" prefWidth="363.0" spacing="40.0">
+                  <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="283.0" prefHeight="64.0" prefWidth="363.0" spacing="40.0">
                      <children>
-                        <Button mnemonicParsing="false" text="Calculate" textAlignment="CENTER" />
-                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Clear" />
+                        <Button fx:id="calculate_btn" mnemonicParsing="false" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: transparent; -fx-border-style: solid; -fx-border-radius: 20;" text="Calculate" textAlignment="CENTER" />
+                        <Button fx:id="clear_btn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#clear" prefHeight="25.0" prefWidth="110.0" style="-fx-border-style: solid; -fx-border-radius: 20; -fx-background-color: transparent;" text="Clear" />
                      </children>
                      <padding>
                         <Insets top="15.0" />
                      </padding>
                   </HBox>
+                  <Label fx:id="requiredFields" alignment="CENTER" contentDisplay="CENTER" text="Complete all fields with the required input..." textAlignment="CENTER" textFill="#ff0202" visible="false">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Label>
                </children>
                <padding>
                   <Insets bottom="15.0" top="25.0" />
