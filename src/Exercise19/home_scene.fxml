@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exercise19.home_Controller">
+   <top>
+      <VBox alignment="CENTER" prefHeight="76.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to top right, #ff7f50, #6a5acd);" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="FITNESS CENTER" textAlignment="CENTER" textFill="WHITE" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="AR DESTINE" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="10.0" text="lkhlkjhdlksjhalkjhsdlkjh" textFill="WHITE" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="SansSerif Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <HBox prefHeight="100.0" prefWidth="650.0" spacing="40.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="424.0" prefWidth="230.0" style="-fx-background-color: pink;">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="425.0" prefWidth="230.0" spacing="30.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="85.0" prefWidth="228.0" text="If you’re looking to join a supportive, &#13;welcoming gym community, with &#13;people of all fitness levels who &#13;want to see you succeed, you’ve &#13;come to the right place." textAlignment="CENTER" />
+                        <Label layoutX="10.0" layoutY="10.0" text="Membership Cost: $500.00" />
+                        <Label text="Training Sessions Cost $100.00 e.a" />
+                        <Button mnemonicParsing="false" onAction="#sceneSwitch" prefHeight="55.0" prefWidth="220.0" text="New Membership" />
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="220.0" text="Exit" />
+                     </children>
+                     <padding>
+                        <Insets top="25.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </Pane>
+            <VBox alignment="CENTER" prefHeight="424.0" prefWidth="349.0" spacing="15.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="128.0" text="All Available Discounts:" textFill="#ff0b0b">
+                     <font>
+                        <Font name="AR DESTINE" size="14.0" />
+                     </font></Label>
+                  <TextArea fx:id="discountsTextArea" editable="false" prefHeight="291.0" prefWidth="349.0">
+                     <font>
+                        <Font name="SansSerif Bold" size="16.0" />
+                     </font></TextArea>
+               </children>
+               <HBox.margin>
+                  <Insets top="15.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>
