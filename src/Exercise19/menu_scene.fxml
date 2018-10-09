@@ -11,41 +11,62 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exercise19.menu_Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="662.0" style="-fx-background-color: linear-gradient(to top right, #bdc3c7 , #2c3e50);" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exercise19.menu_Controller">
    <top>
-       <VBox alignment="CENTER" prefHeight="76.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to top right, #ff7f50, #6a5acd);" BorderPane.alignment="CENTER">
+       <VBox alignment="CENTER" prefHeight="64.0" prefWidth="662.0" style="-fx-background-color: linear-gradient(to top right, #eb3349 , #f45c43);" BorderPane.alignment="CENTER">
          <children>
-            <Label text="Label" />
-            <Label layoutX="321.0" layoutY="40.0" text="Label" />
+            <Label text="FITNESS CENTER" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="AR DESTINE" size="36.0" />
+               </font></Label>
+            <Label layoutX="321.0" layoutY="40.0" text="Hard Work and Dedication" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
          </children>
        </VBox>
    </top>
    <center>
-      <HBox prefHeight="100.0" prefWidth="200.0" spacing="15.0" BorderPane.alignment="CENTER">
+      <HBox prefHeight="438.0" prefWidth="662.0" spacing="15.0" BorderPane.alignment="CENTER">
          <children>
-            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="230.0" style="-fx-background-color: yellow;">
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="230.0" style="-fx-background-color: linear-gradient(to top right, #000428 , #004e92);">
                <children>
-                  <VBox alignment="TOP_CENTER" prefHeight="425.0" prefWidth="230.0" spacing="40.0">
+                  <VBox alignment="TOP_CENTER" prefHeight="451.0" prefWidth="230.0" spacing="40.0" style="-fx-background-color: linear-gradient(to top right, #000428 , #004e92);">
                      <children>
-                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="85.0" prefWidth="228.0" text="If you’re looking to join a supportive, &#13;welcoming gym community, with &#13;people of all fitness levels who &#13;want to see you succeed, you’ve &#13;come to the right place." textAlignment="CENTER" />
-                        <Button layoutX="15.0" layoutY="150.0" mnemonicParsing="false" onAction="#sceneSwitch" prefHeight="55.0" prefWidth="220.0" text="Back" />
-                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#exit" prefHeight="55.0" prefWidth="220.0" text="Exit" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="85.0" prefWidth="228.0" text="If you’re looking to join a supportive, &#13;welcoming gym community, with &#13;people of all fitness levels who &#13;want to see you succeed, you’ve &#13;come to the right place." textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font></Label>
+                        <Button fx:id="back_btn" layoutX="15.0" layoutY="150.0" mnemonicParsing="false" onAction="#sceneSwitch" onMouseEntered="#back_btnHover" onMouseExited="#back_btnUnHover" prefHeight="55.0" prefWidth="220.0" style="-fx-background-color: transparent; -fx-border-radius: 5; -fx-border-color: red;" text="Back" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font></Button>
+                        <Button fx:id="exit_btn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#exit" onMouseEntered="#exitHover" onMouseExited="#exitUnHover" prefHeight="55.0" prefWidth="220.0" style="-fx-background-color: transparent; -fx-border-color: red; -fx-border-radius: 5;" text="Exit" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font></Button>
                      </children>
                      <padding>
                         <Insets top="25.0" />
                      </padding>
                   </VBox>
                </children></Pane>
-            <VBox alignment="TOP_CENTER" fillWidth="false" prefHeight="350.0" prefWidth="363.0">
+            <VBox alignment="TOP_CENTER" fillWidth="false" prefHeight="455.0" prefWidth="363.0">
                <children>
-                  <Label text="Membership Options:" />
+                  <Label text="Membership Options:" textAlignment="CENTER" textFill="RED">
+                     <font>
+                        <Font name="AR DESTINE" size="14.0" />
+                     </font></Label>
                   <VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="87.0" prefWidth="363.0">
                      <children>
                         <HBox alignment="CENTER" fillHeight="false" prefHeight="146.0" prefWidth="363.0" spacing="40.0">
                            <children>
-                              <VBox alignment="CENTER" prefHeight="87.0" prefWidth="141.0">
+                              <VBox alignment="CENTER" prefHeight="87.0" prefWidth="167.0">
                                  <children>
-                                    <Label contentDisplay="CENTER" text="Months paid in advance:" textAlignment="CENTER" />
+                                    <Label contentDisplay="CENTER" text="Months paid in advance:" textAlignment="CENTER" textFill="RED">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font></Label>
                                     <TextField fx:id="monthsPaid" alignment="CENTER" prefHeight="25.0" prefWidth="83.0" promptText="BTN :  1 &amp; 100" />
                                     <Label fx:id="requiredField1" alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="84.0" text="Required field!" textFill="#ff0f0f" visible="false">
                                        <font>
@@ -54,9 +75,12 @@
                                     </Label>
                                  </children>
                               </VBox>
-                              <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="146.0" prefWidth="96.0">
+                              <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="87.0" prefWidth="127.0">
                                  <children>
-                                    <Label contentDisplay="CENTER" text="Trainig Sessions:" />
+                                    <Label contentDisplay="CENTER" prefHeight="17.0" prefWidth="108.0" text="Training Sessions:" textFill="RED">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font></Label>
                                     <TextField fx:id="trainingSession" prefHeight="25.0" prefWidth="65.0" promptText="BTN:  1 &amp; 100" />
                                     <Label fx:id="requiredField2" alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="84.0" text="Required field!" textFill="#ff0f0f" visible="false">
                                        <font>
@@ -68,9 +92,12 @@
                            </children>
                         </HBox>
                      </children></VBox>
-                  <VBox alignment="TOP_CENTER" prefHeight="62.0" prefWidth="363.0" spacing="10.0">
+                  <VBox alignment="TOP_CENTER" prefHeight="58.0" prefWidth="363.0" spacing="10.0">
                      <children>
-                        <Label text="Senior Citizen:" />
+                        <Label text="Senior Citizen:" textFill="RED">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Label>
                         <TextField fx:id="scTextField" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="77.0" promptText="Yes or No" />
                         <Label fx:id="requiredField3" alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="84.0" text="Required field!" textFill="#ff0f0f" visible="false">
                            <font>
@@ -80,14 +107,26 @@
                      </children></VBox>
                   <VBox alignment="TOP_CENTER" layoutX="10.0" layoutY="139.0" prefHeight="134.0" prefWidth="363.0">
                      <children>
-                        <Label text="Summary:" />
-                        <TextArea fx:id="summaryTArea" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="117.0" prefWidth="343.0" />
+                        <Label text="Summary:" textFill="RED">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <TextArea fx:id="summaryTArea" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="141.0" prefWidth="343.0">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font></TextArea>
                      </children>
                   </VBox>
                   <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="283.0" prefHeight="64.0" prefWidth="363.0" spacing="40.0">
                      <children>
-                        <Button fx:id="calculate_btn" mnemonicParsing="false" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: transparent; -fx-border-style: solid; -fx-border-radius: 20;" text="Calculate" textAlignment="CENTER" />
-                        <Button fx:id="clear_btn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#clear" prefHeight="25.0" prefWidth="110.0" style="-fx-border-style: solid; -fx-border-radius: 20; -fx-background-color: transparent;" text="Clear" />
+                        <Button fx:id="calculate_btn" mnemonicParsing="false" onAction="#totals" onMouseEntered="#calculate_btnHover" onMouseExited="#calculate_btnUnHover" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: transparent; -fx-border-color: red; -fx-border-style: solid; -fx-border-radius: 5;" text="Calculate" textAlignment="CENTER" textFill="RED">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font></Button>
+                        <Button fx:id="clear_btn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#clear" onMouseEntered="#clear_btnHover" onMouseExited="#btn_ClearUnHover" prefHeight="39.0" prefWidth="110.0" style="-fx-border-style: solid; -fx-border-radius: 5; -fx-background-color: transparent; -fx-border-color: red;" text="Clear" textFill="RED">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Button>
                      </children>
                      <padding>
                         <Insets top="15.0" />

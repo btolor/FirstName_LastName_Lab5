@@ -53,46 +53,17 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="menu_scene.fxml" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/Exercise19/menu_scene.fxml">
-                <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-                <provider editor-type-id="text-editor">
-                  <state relative-caret-position="1105">
-                    <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fitnessCenterMembershipCost.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercise19/fitnessCenterMembershipCost.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home_scene.fxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home_scene.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Exercise19/home_scene.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="680">
+              <caret line="40" column="309" selection-start-line="40" selection-start-column="255" selection-end-line="40" selection-end-column="312" />
             </state>
           </provider>
         </entry>
@@ -100,10 +71,11 @@
       <file leaf-file-name="home_Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Exercise19/home_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="68" lean-forward="true" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+            <state relative-caret-position="986">
+              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#sceneSwitch#0;class#home_Controller#0" />
               </folding>
             </state>
           </provider>
@@ -112,11 +84,35 @@
       <file leaf-file-name="menu_Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Exercise19/menu_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-500">
-              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            <state relative-caret-position="180">
+              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#sceneSwitch#0;class#menu_Controller#0" />
+                <element signature="method#clear#0;class#menu_Controller#0" />
+                <element signature="docComment;method#textFieldValidation#0;class#menu_Controller#0" />
+                <element signature="method#textFieldValidation#0;class#menu_Controller#0" />
+                <element signature="docComment;method#twelveMonthsDiscount#0;class#menu_Controller#0" />
+                <element signature="method#twelveMonthsDiscount#0;class#menu_Controller#0" />
+                <element signature="docComment;method#trainingSessionDiscount#0;class#menu_Controller#0" />
+                <element signature="method#trainingSessionDiscount#0;class#menu_Controller#0" />
+                <element signature="docComment;method#seniorDiscount#0;class#menu_Controller#0" />
+                <element signature="method#seniorDiscount#0;class#menu_Controller#0" />
+                <element signature="docComment;method#discounts#0;class#menu_Controller#0" />
+                <element signature="method#discounts#0;class#menu_Controller#0" />
+                <element signature="docComment;method#totals#0;class#menu_Controller#0" />
+                <element signature="method#totals#0;class#menu_Controller#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu_scene.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Exercise19/menu_scene.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="89" selection-start-line="39" selection-start-column="89" selection-end-line="39" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -148,9 +144,9 @@
         <option value="$PROJECT_DIR$/src/Exercise19/fitnessCenter.fxml" />
         <option value="$PROJECT_DIR$/src/Exercise19/Controller.java" />
         <option value="$PROJECT_DIR$/src/Exercise19/fitnessCenterMembershipCost.java" />
+        <option value="$PROJECT_DIR$/src/Exercise19/home_scene.fxml" />
         <option value="$PROJECT_DIR$/src/Exercise19/menu_Controller.java" />
         <option value="$PROJECT_DIR$/src/Exercise19/home_Controller.java" />
-        <option value="$PROJECT_DIR$/src/Exercise19/home_scene.fxml" />
         <option value="$PROJECT_DIR$/src/Exercise19/menu_scene.fxml" />
       </list>
     </option>
@@ -170,33 +166,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FirstName_LastName_Lab5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstName_LastName_Lab5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstName_LastName_Lab5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstName_LastName_Lab5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstName_LastName_Lab5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstName_LastName_Lab5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise19" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToClass.includeLibraries" value="false" />
@@ -324,23 +294,23 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3292683" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32946634" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3292683" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.398374" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24254742" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32946634" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.32946634" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.16709511" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" weight="0.17287917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907193" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398374" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="right" id="JetGradle" order="5" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -348,12 +318,12 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="Changes" order="7" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Profiler" order="9" />
       <window_info anchor="bottom" id="Problems" order="10" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Application Servers" order="11" />
-      <window_info anchor="right" id="Database" order="6" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,61 +359,23 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Exercise19/menu_scene.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise19/fitnessCenterMembershipCost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise19/home_Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2349#2350#0" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise19/home_scene.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="301" selection-start-line="39" selection-start-column="301" selection-end-line="39" selection-end-column="301" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise19/fitnessCenterMembershipCost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercise19/home_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2349#2350#0" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
+            <element signature="method#sceneSwitch#0;class#home_Controller#0" />
           </folding>
         </state>
       </provider>
@@ -477,8 +409,7 @@
           <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2349#2350#0" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
+            <element signature="method#sceneSwitch#0;class#home_Controller#0" />
           </folding>
         </state>
       </provider>
@@ -496,8 +427,7 @@
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2349#2350#0" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
+            <element signature="method#sceneSwitch#0;class#home_Controller#0" />
           </folding>
         </state>
       </provider>
@@ -711,26 +641,88 @@
     <entry file="file://$PROJECT_DIR$/src/Exercise19/fitnessCenterMembershipCost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise19/menu_Controller.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/beans/property/ObjectPropertyBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500">
-          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="156">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/control/TextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/control/TextInputControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="1164" column="57" lean-forward="true" selection-start-line="1164" selection-start-column="57" selection-end-line="1164" selection-end-column="57" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#50373#50374#0" expanded="true" />
+            <element signature="e#50422#50423#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise19/home_scene.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="309" selection-start-line="40" selection-start-column="255" selection-end-line="40" selection-end-column="312" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercise19/home_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="68" lean-forward="true" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+        <state relative-caret-position="986">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#sceneSwitch#0;class#home_Controller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise19/menu_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#sceneSwitch#0;class#menu_Controller#0" />
+            <element signature="method#clear#0;class#menu_Controller#0" />
+            <element signature="docComment;method#textFieldValidation#0;class#menu_Controller#0" />
+            <element signature="method#textFieldValidation#0;class#menu_Controller#0" />
+            <element signature="docComment;method#twelveMonthsDiscount#0;class#menu_Controller#0" />
+            <element signature="method#twelveMonthsDiscount#0;class#menu_Controller#0" />
+            <element signature="docComment;method#trainingSessionDiscount#0;class#menu_Controller#0" />
+            <element signature="method#trainingSessionDiscount#0;class#menu_Controller#0" />
+            <element signature="docComment;method#seniorDiscount#0;class#menu_Controller#0" />
+            <element signature="method#seniorDiscount#0;class#menu_Controller#0" />
+            <element signature="docComment;method#discounts#0;class#menu_Controller#0" />
+            <element signature="method#discounts#0;class#menu_Controller#0" />
+            <element signature="docComment;method#totals#0;class#menu_Controller#0" />
+            <element signature="method#totals#0;class#menu_Controller#0" />
           </folding>
         </state>
       </provider>
@@ -738,16 +730,8 @@
     <entry file="file://$PROJECT_DIR$/src/Exercise19/menu_scene.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise19/home_scene.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="663">
+          <caret line="39" column="89" selection-start-line="39" selection-start-column="89" selection-end-line="39" selection-end-column="89" />
         </state>
       </provider>
     </entry>

@@ -18,12 +18,17 @@ public class home_Controller implements Initializable {
 
     //home_scene.fxml controls...
     @FXML
+    private Button newMember = new Button();
+    @FXML
+    private Button exit = new Button();
+    @FXML
     private TextArea discountsTextArea = new TextArea();
 
     //Methods for home_scene.fxml...
 
     /**The initialize method will run its code as soon as the view loads
-     * populating the text-are with all of the available discounts...
+     * populating the text-area with the general information about the
+     * fitness center and all of the available discounts...
      */
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -62,7 +67,21 @@ public class home_Controller implements Initializable {
         System.exit(1);
     }
 
-
+    /**
+     * These 8 methods are used to change the buttons color when hovered
+     * */
+    public void newMemberHover(){
+        newMember.setStyle("-fx-background-color: #33cc33; -fx-border-style: solid; -fx-border-color: #33cc33; -fx-text-fill: #6600ff; -fx-border-radius: 5");
+    }
+    public void newMemberUnHover(){
+        newMember.setStyle("-fx-background-color: transparent; -fx-border-style: solid; -fx-border-color: red; -fx-border-radius: 5; -fx-text-fill: white");
+    }
+    public void exitHover(){
+        exit.setStyle("-fx-background-color: red; -fx-border-color: red; -fx-border-radius: 5; -fx-text-fill: #6600ff; -fx-border-style: solid");
+    }
+    public void exitUnHover(){
+        exit.setStyle("-fx-background-color: transparent; -fx-border-color: red; -fx-border-radius: 5; -fx-border-style: solid; -fx-text-fill: white");
+    }
 
 
 

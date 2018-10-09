@@ -10,16 +10,16 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exercise19.home_Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: linear-gradient(to top right, #bdc3c7 , #2c3e50);" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exercise19.home_Controller">
    <top>
-      <VBox alignment="CENTER" prefHeight="76.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to top right, #ff7f50, #6a5acd);" BorderPane.alignment="CENTER">
+      <VBox alignment="CENTER" prefHeight="76.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to top right, #eb3349 , #f45c43);" BorderPane.alignment="CENTER">
          <children>
             <Label alignment="CENTER" contentDisplay="CENTER" text="FITNESS CENTER" textAlignment="CENTER" textFill="WHITE" VBox.vgrow="ALWAYS">
                <font>
                   <Font name="AR DESTINE" size="36.0" />
                </font>
             </Label>
-            <Label layoutX="10.0" layoutY="10.0" text="lkhlkjhdlksjhalkjhsdlkjh" textFill="WHITE" VBox.vgrow="ALWAYS">
+            <Label layoutX="10.0" layoutY="10.0" text="Hard Work and Dedication" textFill="WHITE" VBox.vgrow="ALWAYS">
                <font>
                   <Font name="SansSerif Bold" size="18.0" />
                </font>
@@ -30,13 +30,22 @@
    <center>
       <HBox prefHeight="100.0" prefWidth="650.0" spacing="25.0" BorderPane.alignment="CENTER">
          <children>
-            <Pane prefHeight="424.0" prefWidth="230.0" style="-fx-background-color: pink;">
+            <Pane prefHeight="424.0" prefWidth="230.0" style="-fx-background-color: linear-gradient(to top right, #000428 , #004e92);">
                <children>
                   <VBox alignment="TOP_CENTER" prefHeight="425.0" prefWidth="230.0" spacing="40.0">
                      <children>
-                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="85.0" prefWidth="228.0" text="If you’re looking to join a supportive, &#13;welcoming gym community, with &#13;people of all fitness levels who &#13;want to see you succeed, you’ve &#13;come to the right place." textAlignment="CENTER" />
-                        <Button mnemonicParsing="false" onAction="#sceneSwitch" prefHeight="55.0" prefWidth="220.0" text="New Membership" />
-                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#exit" prefHeight="55.0" prefWidth="220.0" text="Exit" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="85.0" prefWidth="228.0" text="If you’re looking to join a supportive, &#13;welcoming gym community, with &#13;people of all fitness levels who &#13;want to see you succeed, you’ve &#13;come to the right place." textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font></Label>
+                        <Button fx:id="newMember" mnemonicParsing="false" onAction="#sceneSwitch" onMouseEntered="#newMemberHover" onMouseExited="#newMemberUnHover" prefHeight="55.0" prefWidth="220.0" style="-fx-border-style: solid; -fx-border-radius: 5; -fx-border-color: red; -fx-background-color: transparent;" text="New Membership" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font></Button>
+                        <Button fx:id="exit" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#exit" onMouseEntered="#exitHover" onMouseExited="#exitUnHover" prefHeight="55.0" prefWidth="220.0" style="-fx-background-color: transparent; -fx-border-style: solid; -fx-border-radius: 5; -fx-border-color: red;" text="Exit" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font></Button>
                      </children>
                      <padding>
                         <Insets top="25.0" />
@@ -46,9 +55,9 @@
             </Pane>
             <VBox alignment="CENTER" prefHeight="409.0" prefWidth="379.0" spacing="15.0">
                <children>
-                  <Label prefHeight="17.0" prefWidth="128.0" text="All Available Discounts:" textFill="#ff0b0b">
+                  <Label prefHeight="27.0" prefWidth="214.0" text="All Available Discounts:" textFill="#ff0b0b">
                      <font>
-                        <Font name="AR DESTINE" size="14.0" />
+                        <Font name="System Bold" size="18.0" />
                      </font></Label>
                   <TextArea fx:id="discountsTextArea" editable="false" prefHeight="291.0" prefWidth="366.0">
                      <font>
